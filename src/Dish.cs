@@ -12,9 +12,9 @@ public class Dish
         set { name = value; }
     }
 
-    private int price;
+    private double price;
 
-    public int Price
+    public double Price
     {
         get { return price; }
         set { price = value; }
@@ -28,7 +28,7 @@ public class Dish
         set { isVegetarian = value; }
     }
 
-    public Dish(string name , int price , bool isVegetarian )
+    public Dish(string name , double price , bool isVegetarian )
     {
         Name = name;
         Price = price;
