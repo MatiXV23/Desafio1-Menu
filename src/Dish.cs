@@ -27,4 +27,11 @@ public class Dish
         get { return isVegetarian; }
         set { isVegetarian = value; }
     }
+
+    public Dish(string name , int price , bool isVegetarian )
+    {
+        Name = name;
+        Price = price;
+        IsVegetarian = isVegetarian;
+    }
 }
