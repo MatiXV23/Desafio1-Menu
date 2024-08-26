@@ -26,4 +26,9 @@ public class Waiter
     {
         NTable.AddToOrder(Order);
     }
+
+    public Waiter(string name)
+    {
+        this.Name = name;
+    }
 }
