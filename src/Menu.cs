@@ -24,11 +24,9 @@ public class Menu
     {
         foreach (Dish dish in this.dishes)
         {
-            if (this.dishes.Name == name) return dish;
+            if (dish.Name == name) return dish;
         }
 
         return null;
-        
-        dishes.Clear();
     }
 }
